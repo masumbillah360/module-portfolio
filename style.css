@@ -1,17 +1,26 @@
 body{
     margin: 0;
     font-family: 'Poppins','sans-serif';
+    background-image: url('./images/top-banner.png');
+    background-repeat: no-repeat;
+    
 }
 
 section{
     height: 500px;
     padding-bottom: 150px;
 }
+
+
 h1{
     font-size: 50px;
 }
 h2{
     font-size: 40px;
+}
+h4{
+    color: orange;
+    font-size: 22px;
 }
 p{
     color: dimgray;
@@ -20,11 +29,26 @@ p{
 .author-name{
     color: orange;
 }
-
+.navbar{
+    float: right;
+}
+.navbar ul{
+    display: flex;
+}
+.navbar ul li{
+    list-style: none;
+    padding: 0px 10px 0px 10px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    text-align: center;
+    color: tomato;
+    font-weight: 600;
+    font-size: 20px;
+}
 .top-banner{
     display: flex;
-    background-image: url('./images/top-banner.png');
-    background-repeat: no-repeat;
+    
 }
 .half-width{
     width: 40%;
@@ -44,6 +68,18 @@ p{
     border-radius: 5px;
 }
 
+.dream-big-area{
+    background-image: url(./images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right,center;
+}
+
+.experience-area{
+    background-image: url(./images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position:left, center;
+}
+
 .experience-div{
     display: flex;
     padding: 10px;
@@ -51,7 +87,7 @@ p{
 .left{
     box-shadow: 10px 10px 20px grey;
     height: 80%;
-    border-left: 7px solid blue;
+    border-left: 7px solid tomato;
     padding-bottom: 100px;
     border-radius: 10px;
 }
@@ -59,7 +95,7 @@ p{
 .right{
     box-shadow: 10px 10px 20px grey;
     height: 8%;
-    border-left: 7px solid tomato;
+    border-left: 7px solid blue;
     padding-bottom: 100px;
     border-radius: 10px;
 }
